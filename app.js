@@ -54,7 +54,7 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from our coding retreat!
+      Hello from our coding retreat using NPM not Yarn!
     </section>
   </body>
 </html>

@@ -1,9 +1,11 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const port = process.env.PORT || 3001;
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
+app.use(cors());
 
 // POST request handler for the '/submit' route
 app.post('/submit', (req, res) => {

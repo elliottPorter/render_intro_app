@@ -8,7 +8,7 @@ app.use(express.json());
 // POST request handler for the '/submit' route
 app.post('/submit', (req, res) => {
   const { name, email, message } = req.body;
-  
+  console.log(req.body);
   // 1. Validate the data (add more robust validation as needed)
   if (!name || !email || !message) {
     return res.status(400).json({ error: 'All fields are required' });

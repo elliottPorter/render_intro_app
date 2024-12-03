@@ -35,7 +35,7 @@ const html = `
       }
       html {
         font-family: neo-sans;
-        font-weight: 700;
+        font-weight: 500;
         font-size: calc(62rem / 16);
       }
       body {
@@ -54,7 +54,7 @@ const html = `
   </head>
   <body>
     <section>
-      Hello from Render!
+      Hello from our coding retreat!
     </section>
   </body>
 </html>
